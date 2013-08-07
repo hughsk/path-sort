@@ -1,0 +1,27 @@
+{
+  "name": "path-sort",
+  "version": "0.0.0",
+  "description": "Sort a list of file/directory paths",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/path-sort.git"
+  },
+  "keywords": [
+    "sort",
+    "path",
+    "file",
+    "directory",
+    "tree"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
