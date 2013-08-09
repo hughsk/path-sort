@@ -1,6 +1,6 @@
 {
   "name": "path-sort",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sort a list of file/directory paths",
   "main": "index.js",
   "dependencies": {},
