@@ -46,3 +46,14 @@ npm install path-sort
 
 Takes an array of `filenames` with an optional delimiter (`sep`), returning a
 sorted copy.
+
+### `require('path-sort').standalone([sep])` ###
+
+Returns a `Array.prototype.sort`-friendly method. It's a little slower but
+easier to use in some cases.
+
+``` javascript
+var sorter = require('path-sort').standalone('/')
+
+array = array.sort(sorter)
+```
