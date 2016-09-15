@@ -18,9 +18,10 @@ function sorter(a, b) {
     if (!(i in b)) return +1
     if (a[i].toUpperCase() > b[i].toUpperCase()) return +1
     if (a[i].toUpperCase() < b[i].toUpperCase()) return -1
-    if (a.length < b.length) return -1
-    if (a.length > b.length) return +1
   }
+  if (a.length < b.length) return -1
+  if (a.length > b.length) return +1
+  return 0
 }
 
 function standalone(sep) {
